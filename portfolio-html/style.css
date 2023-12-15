@@ -1,0 +1,331 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "poppins", sans-serif
+}
+
+.index {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url(./img/banniere1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.img_logo {
+    width: 70px;
+}
+
+.nav-item {
+    margin: 0px 5px;
+}
+
+.nav-link {
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(255, 255, 255, 0.899);
+    transition: 0.2s ease-in-out;
+}
+
+.nav-link:hover {
+    color: rgb(250, 53, 129);
+}
+
+.nav-btn {
+    padding: 11px 25px !important;
+    border: 2px solid goldenrod;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    color: goldenrod;
+    border-radius: 2px;
+    margin-left: 16px;
+    transition: 0.2s ease-in-out;
+
+}
+
+.nav-btn:hover {
+    background-color: rgb(173, 6, 70);
+    color: white;
+    border: 2px solid rgb(173, 6, 70);
+}
+
+.home_section {
+    width: 100%;
+    height: 80vh;
+}
+
+.container_content_home {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.img_box_home {
+    width: 140px;
+    height: 140px;
+    background-image: url(./img/Photo\ de\ Aholoukpe\ Huguette.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.heading_home {
+    font-size: 32px;
+    font-weight: 700;
+    color: rgb(173, 6, 70);
+    padding: 16px 0px;
+}
+
+.heading_title {
+    font-size: 27px;
+    color: white;
+    font-weight: 600;
+    margin: -12px 0px;
+}
+
+.heading_slogan{
+    font-size: 25px;
+    color: white;
+    font-weight: 500;
+    margin: 15px 0px; 
+}
+
+.social_media_container {
+    margin-top: 40px;
+    margin-bottom: 30 px;
+    display: flex;
+    justify-content: center;
+}
+
+.icon_home {
+    color: rgb(173, 6, 70);
+    font-size: 21px;
+    margin: 0px 8px;
+    cursor: pointer;
+}
+
+.btn_home {
+    display: inline-block;
+    padding: 12px 40px;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(248, 228, 178);
+    background-color:  goldenrod;
+    outline: none;
+    border-radius: 40px;
+    text-decoration: none;
+    transition: O.3s ease-in-out;
+}
+
+.btn-home2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.btn_home:hover{
+    background-color:  rgb(173, 6, 70);
+    color: white;
+}
+
+/* About */
+
+body{
+    background-color:rgb(1,1,17);
+}
+
+.about{
+    height: auto;
+    padding: 80px 0px;
+}
+
+.about_headings{
+   text-align: center; 
+}
+
+.heading_title_about{
+    font-size: 12px;
+    color: rgb(173, 6, 70);
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.heading_about{
+    font-size: 42px;
+    font-weight: 800;
+    color: white;
+    margin-top: 19px;
+}
+
+.content_about{
+    padding: 60px 20px;
+    padding-left: 100px;
+}
+
+.about_1{
+    background-color: rgb(46, 33, 33);
+    padding: 19px 36px;
+    border-radius: 8px;
+    margin-bottom: 9px;
+}
+.about_data{
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0px;
+}
+
+.about_2{
+    background-color: rgb(46, 33, 33);
+    padding: 19px 36px;
+    border-radius: 8px;
+    margin-bottom: 9px; 
+}
+
+.img_container_about{
+    padding: 60px 0px;
+    height: 100%;
+}
+
+.img_box_about{
+    width: 80%;
+    height: 100%;
+    background-image: linear-gradient(rgba(0, 0, 23, 0.48), rgba(0, 0, 0, 0.34)), url(./img/About.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 18px
+}
+
+/* Portfolio */
+
+.services{
+    height: auto;
+    padding: 50px 100px;
+}
+
+.heading_service_container{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.heading_servic_title{
+    font-size: 14px;
+    font-weight: 600;
+    color:  rgb(173, 6, 70);
+}
+
+.heading_services{
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+    margin: 15px 0px;
+}
+
+.para_services{
+    font-size: 13px;
+    font-weight: 500;
+    color: rgb(255, 255, 255, 0.899);
+    text-align: center;
+    max-width: 42%;
+    display: block;
+    line-height: 24px;
+    margin-top: 10px;
+    position: relative;
+}
+
+.para_services::after{
+    content: "";
+    position: absolute;
+    width: 60px;
+    height: 4px;
+    border-radius: 10px;
+    background-color: rgb(173, 6, 70);
+    bottom: -28px;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+.content_service{
+    width: 100%;
+    height: auto;
+    background-color: rgb(7, 7, 7);
+    padding: 50px  30px;
+    transition: 0.3s ease-in-out;
+
+}
+
+.content_service:hover{
+    transform: translateY(-10px);
+    background-color: black;
+    cursor: pointer;
+}
+
+.photo-service{
+    width: 42px;
+    margin-bottom: 5px;
+}
+
+.heading_content_service{
+    color: white;
+    font-size: 22px;
+    font-weight: 600;
+    margin: 20px 0px;
+}
+
+.para_content_service{
+    font-size: 14px;
+    color:rgb(255, 255, 255, 0.899) ;
+    font-weight: 500;
+    line-height: 25px;
+    margin: 0px;
+}
+
+/* footer */
+footer{
+    padding: 50px 90px;
+    background-color: rgb(10, 9, 9);
+    height: auto;
+}
+
+.heaing_footer{
+    font-size: 27px;
+    font-weight: 700;
+    color: white;
+}
+
+.heading_footer_title{
+    font-size: 14px;
+    font-weight: 400;
+    color:rgb(255, 255, 255, 0.899) ;
+}
+
+.navbar_footer{
+display: flex;
+list-style: none;
+}
+
+.nav_link_footer{
+    text-decoration: none;
+    margin: 0px 6px;
+    font-size: 16px;
+    font-weight: 500;
+    color:rgb(255, 255, 255, 0.899) ;
+}
+
+.icon_footer{
+    color: rgb(255, 255, 255, 0.899) ;
+    font-size: 21px;
+    margin: 0 6px;
+    cursor: pointer;
+    transition: 0.2s ease-in;
+}
+
+.icon_footer:hover{
+    color:rgb(173, 6, 70) ;
+}

@@ -1,0 +1,19 @@
+@media(max-width:992px){
+    .bars{
+        width: 30px;
+    }
+
+    .navbar-nav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nav-item{
+        margin: 8px 0px;
+    }
+
+    .nav-link{
+        font-size: 15px;
+    }
+}
